@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Chen — Backend Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-bg"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">VG<span>.dev</span></div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#stack">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <!-- <li><a href="#experience">Experience</a></li> -->
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Hire Me</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-left">
+    <div class="status">
+      <span class="status-dot"></span>
+      Available for opportunities
+    </div>
+    <div class="hero-tag">Backend Engineer</div>
+    <h1>
+      <span class="name-line">Vishal</span>
+      <span class="name-line accent-name">Gaikwad.</span>
+    </h1>
+    <p class="hero-desc">
+      I build the invisible infrastructure that powers user experiences — 
+      distributed systems, APIs that scale to millions, and databases tuned for peak performance.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-ghost">Let's talk <span class="arrow">→</span></a>
+    </div>
+  </div>
+
+  <div class="hero-terminal">
+    <div class="terminal-header">
+      <div class="dot dot-red"></div>
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-green"></div>
+      <span class="terminal-title">~/alex-chen — zsh</span>
+    </div>
+    <div class="terminal-body">
+      <div class="t-line"><span class="t-prompt">❯</span><span class="t-cmd"> cat profile.json</span></div>
+      <div class="t-line"><span class="t-output">{</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;<span class="pv-key">"name"</span>: <span class="pv-str">"Vishal Gaikwad"</span>,</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;<span class="pv-key">"role"</span>: <span class="pv-str">"Junior Backend Engineer"</span>,</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;<span class="pv-key">"experience"</span>: <span class="pv-num">6</span>,</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;<span class="pv-key">"stack"</span>: [<span class="pv-str">"JS"</span>, <span class="pv-str">"Python"</span>, <span class="pv-str">"Node"</span>],</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;<span class="pv-key">"specialties"</span>: [</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="pv-str">"API Development "</span>,</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="pv-str">"Microservices"</span>,</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;&nbsp;&nbsp;<span class="pv-str">"Database Design"</span></span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;],</span></div>
+      <div class="t-line"><span class="t-output">&nbsp;&nbsp;<span class="pv-key">"open_to_work"</span>: <span style="color:#c678dd">true</span></span></div>
+      <div class="t-line"><span class="t-output">}</span></div>
+      <div class="t-line" style="margin-top:8px"><span class="t-prompt">❯</span><span class="t-cursor"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<!-- <div class="stats-strip reveal">
+  <div class="stat">
+    <div class="stat-num"><span class="accent">6</span>+</div>
+    <div class="stat-label">Years Experience</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num"><span class="accent">50</span>M+</div>
+    <div class="stat-label">Requests / Day</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num"><span class="accent">99.99</span>%</div>
+    <div class="stat-label">Uptime Achieved</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num"><span class="accent">18</span></div>
+    <div class="stat-label">Systems Built</div>
+  </div>
+</div> -->
+
+<!-- TECH STACK -->
+<section id="stack">
+  <div class="section-tag">Expertise</div>
+  <h2>Tech Stack</h2>
+  <div class="stack-grid">
+    <div class="stack-item reveal">
+      <span class="stack-icon">💻</span>
+      <div class="stack-name">javascript</div>
+      <div class="stack-type">Primary Language</div>
+      <div class="stack-level" style="width:95%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">🐍</span>
+      <div class="stack-name">Python</div>
+      <div class="stack-type">Backend & ML Pipelines</div>
+      <div class="stack-level" style="width:90%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">🟨</span>
+      <div class="stack-name">Node.js</div>
+      <div class="stack-type">APIs & Services</div>
+      <div class="stack-level" style="width:85%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">🐘</span>
+      <div class="stack-name">PostgreSQL</div>
+      <div class="stack-type">Primary Database</div>
+      <div class="stack-level" style="width:92%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">🔴</span>
+      <div class="stack-name">Redis</div>
+      <div class="stack-type">Caching & Queues</div>
+      <div class="stack-level" style="width:88%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">☸️</span>
+      <div class="stack-name">Kubernetes</div>
+      <div class="stack-type">Orchestration</div>
+      <div class="stack-level" style="width:80%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">😺</span>
+      <div class="stack-name">Git</div>
+      <div class="stack-type">Vesion Control</div>
+      <div class="stack-level" style="width:82%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">☁️</span>
+      <div class="stack-name">AWS</div>
+      <div class="stack-type">Cloud Infrastructure</div>
+      <div class="stack-level" style="width:87%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">🦫</span>
+      <div class="stack-name">MongoDB</div>
+      <div class="stack-type">Document Store</div>
+      <div class="stack-level" style="width:78%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">🐋</span>
+      <div class="stack-name">Docker</div>
+      <div class="stack-type">Containerization</div>
+      <div class="stack-level" style="width:93%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">🔷</span>
+      <div class="stack-name">REST</div>
+      <div class="stack-type">API Design</div>
+      <div class="stack-level" style="width:83%"></div>
+    </div>
+    <div class="stack-item reveal">
+      <span class="stack-icon">📊</span>
+      <div class="stack-name">Prometheus</div>
+      <div class="stack-type">Monitoring & Observability</div>
+      <div class="stack-level" style="width:79%"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-tag">Work</div>
+  <h2>Featured Projects</h2>
+  <div class="projects-grid">
+
+    <!-- Featured project -->
+    <div class="project-card reveal">
+      <div>
+        <div class="project-num">01 / Featured</div>
+        <div class="project-title">HorizonDB — Distributed Time-Series Database</div>
+        <p class="project-desc">
+          Built a custom distributed time-series database in Go from scratch, supporting 
+          5M+ writes/sec with sub-millisecond p99 latency. Implements Raft consensus, 
+          custom WAL, and an adaptive compression algorithm achieving 12:1 ratios.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Javascript</span>
+          <span class="tag">Raft Consensus</span>
+          <span class="tag blue">Distributed Systems</span>
+          <span class="tag orange">Open Source</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">↗ GitHub</a>
+          <a href="#" class="project-link">→ Case Study</a>
+          <a href="#" class="project-link">⚡ Live Demo</a>
+        </div>
+      </div>
+      <div class="project-visual">
+        <div style="color:var(--muted);margin-bottom:8px">// benchmark_results.go</div>
+        <div><span class="pv-key">WriteOps</span>: <span class="pv-num">5_243_891</span> /sec</div>
+        <div><span class="pv-key">ReadOps</span>: <span class="pv-num">12_847_203</span> /sec</div>
+        <div><span class="pv-key">P50_latency</span>: <span class="pv-str">"0.3ms"</span></div>
+        <div><span class="pv-key">P99_latency</span>: <span class="pv-str">"0.9ms"</span></div>
+        <div><span class="pv-key">P999_latency</span>: <span class="pv-str">"2.1ms"</span></div>
+        <div><span class="pv-key">Compression</span>: <span class="pv-num">12.4</span>:1</div>
+        <div><span class="pv-key">Nodes</span>: <span class="pv-num">12</span></div>
+        <div><span class="pv-key">Replication</span>: <span class="pv-str">"async"</span></div>
+        <div><span class="pv-key">Consistency</span>: <span class="pv-str">"eventual"</span></div>
+        <div><span class="pv-key">Durability</span>: <span class="pv-num">99.999</span>%</div>
+        <div style="margin-top:8px;color:var(--accent)">✓ All benchmarks passing</div>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">02</div>
+      <div class="project-title">PayFlow — High-Throughput Payment Processing API</div>
+      <p class="project-desc">
+        Microservices payment gateway handling $2B+ annual transaction volume. 
+        Features idempotency keys, distributed saga patterns, and real-time fraud detection via ML scoring.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Python</span>
+        <span class="tag blue">Microservices</span>
+        <span class="tag">Kafka</span>
+        <span class="tag orange">FinTech</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">↗ GitHub</a>
+        <a href="#" class="project-link">→ Case Study</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">03</div>
+      <div class="project-title">StreamFy — Real-Time Chat App</div>
+      <p class="project-desc">
+        Event-driven architecture processing 100K+ concurrent WebSocket connections. 
+        Built with Node.js, Redis Streams, and a custom backpressure management system.
+      </p>
+      <div class="project-tags">
+        <span class="tag">Node.js</span>
+        <span class="tag blue">Redis</span>
+        <span class="tag">WebSockets</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">↗ GitHub</a>
+        <a href="#" class="project-link">→ Docs</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="metrics reveal">
+    <div class="metric">
+      <div class="metric-value">5M+</div>
+      <div class="metric-label">Writes / sec on HorizonDB</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value">$2B+</div>
+      <div class="metric-label">Transactions via PayFlow</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value">100K</div>
+      <div class="metric-label">Concurrent WS connections</div>
+    </div>
+  </div>
+</section> -->
+
+<!-- EXPERIENCE
+<section id="experience">
+  <div class="section-tag">Career</div>
+  <h2>Experience</h2>
+  <div class="exp-list">
+    <div class="exp-item reveal">
+      <div>
+        <div class="exp-date">2022 — Present</div>
+      </div>
+      <div>
+        <div class="exp-company">Stripe</div>
+        <div class="exp-role">Senior Backend Engineer · Platform Team</div>
+        <p class="exp-desc">
+          Led re-architecture of Stripe's core billing microservice, reducing P99 latency by 68%. 
+          Owned the on-call rotation for systems processing $1T+ annually. 
+          Mentored 4 engineers and drove adoption of Go for performance-critical services.
+        </p>
+      </div>
+      <div class="exp-badge">Full-time</div>
+    </div>
+    <div class="exp-item reveal">
+      <div>
+        <div class="exp-date">2020 — 2022</div>
+      </div>
+      <div>
+        <div class="exp-company">Cloudflare</div>
+        <div class="exp-role">Backend Engineer · Edge Computing</div>
+        <p class="exp-desc">
+          Built serverless compute primitives for Cloudflare Workers platform. 
+          Developed the V8 isolate management system serving 25M+ requests/day. 
+          Contributed to the open-source Rust-based network edge layer.
+        </p>
+      </div>
+      <div class="exp-badge">Full-time</div>
+    </div>
+    <div class="exp-item reveal">
+      <div>
+        <div class="exp-date">2018 — 2020</div>
+      </div>
+      <div>
+        <div class="exp-company">Grab</div>
+        <div class="exp-role">Backend Engineer · Ride Platform</div>
+        <p class="exp-desc">
+          Developed real-time geospatial matching algorithm for driver-rider pairing 
+          across Southeast Asia. Optimized PostgreSQL queries reducing CPU load by 40% 
+          during peak hours across a fleet of 300+ database instances.
+        </p>
+      </div>
+      <div class="exp-badge">Full-time</div>
+    </div>
+  </div>
+</section> -->
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-left reveal">
+    <div class="section-tag">Get in touch</div>
+    <h2>Let's Build Something Innovative</h2>
+    <p>
+      I'm selectively available for senior backend roles, technical consulting, 
+      and open-source collaboration. If you're working on hard infrastructure problems — let's talk.
+    </p>
+    <div class="contact-info">
+      <a href="mailto:alex@chen.dev" class="contact-item">
+        <div class="ci-icon">✉</div>
+        vishalgaiikwad45@gmail.com
+      </a>
+      <a href="https://linkedin.com" class="contact-item">
+        <div class="ci-icon">in</div>
+        https://www.linkedin.com/in/vishal-gaikwad/
+      </a>
+      <a href="https://github.com" class="contact-item">
+        <div class="ci-icon">⌥</div>
+        https://github.com/Vishal-gaikwad17
+      </a>
+    </div>
+  </div>
+
+  <div class="contact-form reveal">
+    <form action="https://formspree.io/f/mjgeapkp" method="post">
+    <div class="form-group">
+      <label class="form-label">Name</label>
+      <input type="text" name="name" class="form-input" placeholder="Your name">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Email</label>
+      <input type="email" name="email" class="form-input" placeholder="you@company.com">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Message</label>
+      <textarea class="form-textarea" name="message" placeholder="Tell me about your project or opportunity..."></textarea>
+    </div>
+    <button class="form-submit">Send Message →</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-text">© 2026 Vishal Gaikwad Built with precision.</div>
+  <div class="footer-socials">
+    <a href="#" class="footer-social">GitHub</a>
+    <a href="#" class="footer-social">LinkedIn</a>
+    <a href="#" class="footer-social">Twitter</a>
+    <a href="#" class="footer-social">Resume ↗</a>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
